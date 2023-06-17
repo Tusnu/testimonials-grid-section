@@ -1,0 +1,137 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: min-content;
+    background-color: hsl(0, 0%, 81%);
+}
+
+main {
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 0.5rem;
+}
+
+.name-img-graduation {
+    display: flex;
+}
+
+.name-graduation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.icon {
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-right: 1rem;
+    height: 50px;
+}
+
+.name-one, .name-two, .name-four {
+    color: hsl(0, 0%, 100%);
+}
+
+.name-three, .name-five {
+    color: hsl(219, 29%, 14%);
+}
+
+.graduation {
+    color: hsl(0, 0%, 81%);
+    padding-top: 0.1rem;
+}
+
+.graduation-three, .graduation-five {
+    color: hsl(217, 19%, 35%);
+}
+
+.one, .two, .three, .four, .five {
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.one {
+    background-color: hsl(263, 55%, 52%);
+}
+
+.two {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.three {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.four {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.five {
+    background-color: hsl(0, 0%, 100%);
+}
+
+h3, p {
+    text-align: left;
+}
+
+h3 {
+    padding: 1rem 0;
+}
+
+.h3-one, .h3-two, .h3-four {
+    color: hsl(0, 0%, 100%);
+}
+
+.h3-three, .h3-five {
+    color: hsl(219, 29%, 14%);
+}
+
+.p-one, .p-two, .p-four {
+    color: hsl(0, 0%, 81%);
+}
+
+.p-three, .p-five {
+    color: hsl(217, 19%, 35%);
+}
+
+@media (min-width: 768px) {
+    
+    body {
+        height: 100vh;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .one-two, .three-four {
+        display: flex;
+        flex-direction: row;
+        width: 950px;
+    }
+
+    .five {
+        width: 275px;
+    }
+}
